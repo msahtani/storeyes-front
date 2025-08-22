@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Storeyes",
+    "slug": "storeyes",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "bundleIdentifier": "com.advancedai.storeeyes"
+      
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#e0f9fc"
+      },
+      "package": "com.advancedai.storeeyes",
+      "runtimeVersion": "1.0.0",
+      "permissions": [
+        "NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "notification": {
+      "icon": "./src/assets/icon.png",
+      "color": "#2691A3",
+      "androidMode": "default",
+      "androidCollapsedTitle": "StoreEyes Updates"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3e3270b-2814-451f-ac86-f2e8e64f1edf"
+      }
+    },
+    "owner": "msahtani",
+    "updates": {
+      "url": "https://u.expo.dev/d3e3270b-2814-451f-ac86-f2e8e64f1edf"
+    }
+  }
+}
